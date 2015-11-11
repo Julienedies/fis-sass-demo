@@ -1,0 +1,18 @@
+Thumbs.db
+.DS_Store
+
+#ide create
+.idea/
+.settings/
+.project
+publish/assets
+publish/log
+publish/view
+publish/map.json
+publish/**.cmd
+
+
+#front bulid tool creates
+**bower_components/
+**node_modules/
+**.log
