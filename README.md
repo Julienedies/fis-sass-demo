@@ -1,13 +1,12 @@
 # fis-sass-demo
 
- 临时测试用.
+ 临时测试用，  
+ [https://github.com/fex-team/fis-parser-node-sass/issues/5#issuecomment-155977436](https://github.com/fex-team/fis-parser-node-sass/issues/5#issuecomment-155977436)
  
- 没有透彻理解
+ 没有透彻理解以下配置：
  ```javascript
   // file: fis-conf.js
 fis.config.set('project.exclude', '**/_*.scss'); // [1]
-fis.config.set('modules.parser.scss', 'sass'); //启用fis-parser-sass插件当处理文件后缀是`.scss`。
-fis.config.set('roadmap.ext.scss', 'css'); //`.scss`的文件最后编译产出成`.css`文件。
 
 //给插件fis-parser-sass配置信息
 fis.config.set('settings.parser.sass', {
@@ -23,5 +22,4 @@ fis.config.set('settings.parser.sass', {
  
  
  
- 
- [https://github.com/fex-team/fis-parser-node-sass/issues/5#issuecomment-155977436](https://github.com/fex-team/fis-parser-node-sass/issues/5#issuecomment-155977436)
+
