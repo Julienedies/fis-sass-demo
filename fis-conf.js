@@ -11,9 +11,9 @@ fis.config.set('settings.parser.sass', {
 
 //部署配置
 fis.config.set('roadmap.path', [
-    //以_开头的文件，不发布
+    //以_开头的scss文件，不独立编译
     {
-        reg: /.*\/_\w+\.(?:scss)/i,
+        reg: /.*\/_\[-w]+\.(?:scss)/i,
         release:false
     }
 ]);
